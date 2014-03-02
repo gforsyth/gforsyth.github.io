@@ -5,7 +5,7 @@ date: 14-03-01 16:31:12
 categories: instructions, reference
 ---
 
-To enable javascript animations in IPython Notebooks, first download the package from [Jake Vanderplas' Github](https://github.com/jakevdp/JSAnimation) by running:
+To enable javascript animations in IPython Notebooks, first download the package from [Jake Vanderplas' GitHub repository](https://github.com/jakevdp/JSAnimation) by running:
 
 {% highlight bash %}
 git clone https://github.com/jakevdp/JSAnimation.git
@@ -15,7 +15,7 @@ To install the library for Python2.7-ish run
 
 {% highlight python %}
 cd JSAnimation/
-sudo python2 setup.py install
+python2 setup.py install --user
 {% endhighlight %}
 
 You can then enable JSAnimation within an IPython notebook with
